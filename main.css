@@ -1,0 +1,118 @@
+header {
+    background-color: lightpink;
+    color: slateblue;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid purple;
+    font-weight: bold;
+    font-family: fantasy;
+    padding-top: 20px;
+    height: 100px;
+}
+
+.nav-bar {
+    width: 100%;
+    border: silver solid 5px;
+    background-color: silver;
+}
+
+
+.profile {
+    text-align: center;
+    background-color: tan;
+    float: left;
+    width: 60%;
+}
+
+footer {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 12px;
+    border: 3px solid wheat;
+    text-align: center;
+}
+
+.blink-color {
+    animation-name: blink-color-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink-color-animation {
+    0% {
+        color: tomato;
+        font-size: 30px;
+    }
+
+    25% {
+        color: greenyellow;
+        font-size: 38px;
+    }
+
+    50% {
+        color: lightseagreen;
+        font-size: 50px;
+    }
+
+    75%{
+        color: skyblue;
+        font-size: 38px;
+    }
+
+    100% {
+        color: olivedrab;
+        font-size: 30px;
+    }
+}
+
+.fade-in {
+    animation-name: fade-in-animation;
+    animation-duration: 6s;
+}
+
+@keyframes fade-in-animation {
+    from {
+        opacity: 0;
+        transform: rotate(-100deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+
+.project-table {
+    text-align: center;
+    background-color: skyblue;
+}
+
+.wrapper {
+    background-color: skyblue;
+    width: 90%;
+    margin: auto;
+}
+
+.sidebar-left {
+    background-color: slateblue;
+    float: left;
+    height: 840px;
+    width: 20%;
+}
+
+.sidebar-right {
+    background-color: slateblue;
+    float: right;
+    height: 840px;
+    width: 20%;
+}
+
+.row {
+    width: 70%;
+    margin: auto;
+}
+
+.navbar-nav li{
+    padding-left: 50%;
+}
